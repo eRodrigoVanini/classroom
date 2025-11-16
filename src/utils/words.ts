@@ -1,4 +1,3 @@
-//words.ts
 export type Challenge = {
   id: number;
   word: string;
