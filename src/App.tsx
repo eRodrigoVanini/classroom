@@ -36,6 +36,7 @@ export default function App() {
 
     setLetter("");
     setLettersUsed([]);
+    setScore(0);
   }
 
   function handleConfirm() {
@@ -53,7 +54,7 @@ export default function App() {
     );
 
     if (exists) {
-      setLetter(" ");
+      setLetter("");
       return alert("Você já utilizou a letra " + value);
     }
 
